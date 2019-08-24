@@ -1,79 +1,82 @@
-baseURL                   = "https://divinerapier.github.io"
-builddrafts                = false
-languageCode               = "zn-Hans"
-canonifyurls               = true
-contentdir                 = "content"
-layoutdir                  = "layouts"
-publishdir                 = "public"
-enableEmoji                = true
-hasCJKLanguage             = true
-summaryLength              = 200
-Paginate                   = 3
+baseURL        = "https://divinerapier.github.io"
+builddrafts    = false
+languageCode   = "zn-Hans"
+canonifyurls   = true
+contentdir     = "content"
+layoutdir      = "layouts"
+publishdir     = "public"
+enableEmoji    = true
+hasCJKLanguage = true
+summaryLength  = 200
+Paginate       = 3
 
-theme                      = "AllinOne"
-title                      = "Orianna"
+theme = "AllinOne"
+title = "Orianna"
 
-pygmentsuseclasses         = true
+pygmentsuseclasses = true
 
 
 [permalinks]
-  blog                     = "blog/:year-:month/:slug/"
+  blog = "blog/:year-:month/:slug/"
 
 
 [taxonomies]
-  tag                      = "tags"
-  series                   = "series"
-  category                 = "categories"
+  tag      = "tags"
+  series   = "series"
+  category = "categories"
 
 
 [menu]
   [[menu.main]]
-    name                   = "Blog"
-    weight                 = -120
-    identifier             = "blog"
-    url                    = "blog/"  
-
+    name       = "About"
+    weight     = -100
+    identifier = "about"
+    url        = "about/"  
+    
   [[menu.main]]
-    name                   = "Moment"
-    weight                 = -110
-    identifier             = "moment"
-    url                    = "moment/" 
+    name       = "Articles"
+    weight     = -120
+    identifier = "articles"
+    url        = "articles/"  
 
-  [[menu.main]]
-    name                   = "About"
-    weight                 = -100
-    identifier             = "about"
-    url                    = "about/"  
+  # [[menu.main]]
+  #   name       = "Moment"
+  #   weight     = -110
+  #   identifier = "moment"
+  #   url        = "moment/" 
+
+
 
  
 
 [params]
-  faviconfile              = "img/zheng.png"               # from static/
-  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png 
-  author                   = "Orianna"
-  description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
-  welcome_head             = "Hello, World!"
-  welcome_word             = "~ No Day But Today ~"
+  faviconfile  = "img/takaji.jpg"               # from static/
+  avatar       = "img/takaji.jpg"             # path to image in static dir e.g img/avatar.png 
+  author       = "Orianna"
+  description  = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
+  # welcome_head = "Hello, World!"
+  # welcome_word = "~ No Day But Today ~"
 
-  latestpostscount         = 5                             # how many posts to display on the home page
-  bloggroupby              = 'month'
-  dateform                 = "Jan 2, 2006"
-  dateformfull             = "2006-01-02  Monday  15:04:05"
-  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+  latestpostscount = 5                             # how many posts to display on the home page
+  bloggroupby      = 'month'
+  dateform         = "Jan 2, 2006"
+  dateformfull     = "2006-01-02  Monday  15:04:05"
+  noshowreadtime   = false                         # if true, don't show "<x> minutes read" in posts
 
   # slides
-  slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
-  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+  # path to image in local dir (path for hugo)
+  slidesDirPath    = "themes/AllinOne/static/img/header-slides"    
+  slidesDirPathURL = "img/header-slides"    # path to image in static dir (for static pages)
 
   # highlighting 
-  highlightjs              = true
+  highlightjs = true
 
   # latex
-  katex                    = true
+  katex = true
 
   # links
   # email                    = "you@email.com"
-  github                   = "//github.com/divinerapier"
+  github = "//github.com/divinerapier"
   # linkedin                 = "//linkedin.com/in/you"
   # facebook                 = "//facebook.com/you"
   # googleplus               = "//google.com/you"
@@ -83,4 +86,4 @@ pygmentsuseclasses         = true
   # include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
   
   # analytics
-  googleAnalytics          = "your-google-analytic-id"
+  googleAnalytics = "your-google-analytic-id"
