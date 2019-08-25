@@ -26,18 +26,18 @@ pygmentsuseclasses = true
   category = "categories"
 
 
-[menu]
-  [[menu.main]]
-    name       = "About"
-    weight     = -100
-    identifier = "about"
-    url        = "about/"  
+# [menu]
+#   [[menu.main]]
+#     name       = "About"
+#     weight     = -100
+#     identifier = "about"
+#     url        = "about/"  
     
-  [[menu.main]]
-    name       = "Articles"
-    weight     = -120
-    identifier = "articles"
-    url        = "articles/"  
+#   [[menu.main]]
+#     name       = "Articles"
+#     weight     = -120
+#     identifier = "articles"
+#     url        = "articles/"  
 
   # [[menu.main]]
   #   name       = "Moment"
