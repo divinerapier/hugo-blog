@@ -8,10 +8,10 @@ publishdir     = "public"
 enableEmoji    = true
 hasCJKLanguage = true
 summaryLength  = 200
-Paginate       = 3
+Paginate       = 10
 
 theme = "AllinOne"
-title = "Orianna"
+title = ""
 
 pygmentsuseclasses = true
 
@@ -45,14 +45,10 @@ pygmentsuseclasses = true
   #   identifier = "moment"
   #   url        = "moment/" 
 
-
-
- 
-
 [params]
   faviconfile  = "img/takaji.jpg"               # from static/
   avatar       = "img/takaji.jpg"             # path to image in static dir e.g img/avatar.png 
-  author       = "Orianna"
+  author       = "Orz"
   description  = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
   # welcome_head = "Hello, World!"
   # welcome_word = "~ No Day But Today ~"
